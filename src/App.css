@@ -4,11 +4,26 @@
 
 :root {
   color: white;
+  background-color: #d1d1d1;
 }
 .hero {
-  background-color: #f6ebdb
-
+ height: 500px;
+ /* margin: 20px 0; */
+ border-radius: 0 60px 0 60px;
 }
+
+.hero-content {
+  border: solid 2px red;
+  justify-self: flex-start;
+  margin-left: 100px;
+}
+
+.header {
+  justify-self: left;
+  margin-left: 150px;
+}
+
+
 .card-image{
   height: 200px;
   width: 380px;
@@ -19,6 +34,7 @@
 .about-image {
   padding: 20px;
   align-items: center;
+  /* height: 200px; */
 }
 
 .about-card {
@@ -64,24 +80,10 @@ h1 {
   
 }
 
-.Typewriter {
-  display: inline-block;
-}
-
-.Typewriter__wrapper {
-  font-size: xx-large;
-  font-weight: bold;
-}
-
-.Typewriter__cursor {
-  font-size: xx-large;
-  font-weight: bold;
-}
-
-.meImage {
+/* .meImage {
   height: 100;
   width: 100;
-}
+} */
 
 .icon-list {
   height: 30px;
@@ -113,18 +115,37 @@ h3 {
 
 .header-title {
   background-color: transparent;
+  
+}
+
+.contact-form {
+  height: 300px;
+  width: 300px;
+  border: solid 2px red;
+  justify-self: right;
+  margin-right: 100px;
+  background-color: white;
 }
 
 .footer {
-  height: 75px;
+  height: 30px;
 
 }
 
 .footer-icon {
-  height: 35px;
+  height: 20px;
   align-items: center;
   display: flex;
-  margin: 10px
+  /* margin: 10px */
+}
+
+.infoBar {
+  margin-top: 20px;
+  height: 20px;
+}
+
+.infobar-icon {
+  height: 20px;
 }
 
 .card-text {
@@ -204,4 +225,37 @@ padding-top: 4px;
 
 .card {
   height: 750px
+}
+
+.service-btn {
+  margin-top: -12px;
+}
+
+#btn-1 {
+  border-radius: 20px 0 0 0;
+  border-top: solid 3px #d1d1d1;
+  border-left: solid 3px #d1d1d1;
+  border-bottom: solid 3px #d1d1d1;
+}
+
+#btn-2 {
+  border-radius: none;
+  border-top: solid 3px #d1d1d1;
+  border-left: none;
+  border-bottom: solid 3px #d1d1d1;
+  border-right: none;
+}
+#btn-3 {
+  border-radius: none;
+  border-top: solid 3px #d1d1d1;
+  border-left: none;
+  border-bottom: solid 3px #d1d1d1;
+  border-right: none;
+}
+#btn-4 {
+  border-radius: 0 0 20px 0;
+  border-top: solid 3px #d1d1d1;
+  border-left: none;
+  border-bottom: solid 3px #d1d1d1;
+  border-right: solid 3px #d1d1d1;
 }

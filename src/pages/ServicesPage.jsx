@@ -5,10 +5,10 @@ import {
   weatherItems,
   projectItems,
   noteItems,
-} from "../lib/content/projectItems";
+} from "../lib/content/projectItems.js";
 import ProjectCard from "../components/ProjectCard.jsx";
 
-function ProjectsPage() {
+function ServicesPage() {
   return (
     <>
       <h1 className="mb-4" id="projects">
@@ -57,4 +57,4 @@ function ProjectsPage() {
   );
 }
 
-export default ProjectsPage;
+export default ServicesPage;

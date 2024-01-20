@@ -1,6 +1,6 @@
 
 
-export const ResumePage = () => {
+export const ResourcesPage = () => {
   return (
     <>
       <h1>Resume</h1>
@@ -19,4 +19,4 @@ export const ResumePage = () => {
     </>
   );
 };
-export default ResumePage;
+export default ResourcesPage;
