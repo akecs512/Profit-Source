@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: white;
+}
+.hero {
+  background-color: #f6ebdb
+
+}
+.card-image{
+  height: 200px;
+  width: 380px;
+  object-fit: fill;
+  margin: 10px 0;;
+}
+
+.about-image {
+  padding: 20px;
+  align-items: center;
+}
+
+.about-card {
+  display: flex;
+  padding: 20px;
+}
+
+.divider {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before, .divider::after {
+  flex: 1;
+  content: '';
+  padding: 3px;
+  background-color: red;
+  margin: 5px;
+}
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #007ba7;
+  font-family: "Rowdies";
+  
+  
+}
+
+.Typewriter {
+  display: inline-block;
+}
+
+.Typewriter__wrapper {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.Typewriter__cursor {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.meImage {
+  height: 100;
+  width: 100;
+}
+
+.icon-list {
+  height: 30px;
+  margin: 10px 20px;
+  display: flex
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 20px;
+  padding: 20px;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-size: x-large;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.skills-title {
+  font-family: "Poppins";
+  font-size: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.header-title {
+  background-color: transparent;
+}
+
+.footer {
+  height: 75px;
+
+}
+
+.footer-icon {
+  height: 35px;
+  align-items: center;
+  display: flex;
+  margin: 10px
+}
+
+.card-text {
+  /* height: 300px; */
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  /* flex: 1; */
+  /* align-items: bottom; */
+  /* align-content: bottom; */
+  position: relative
+}
+
+.card-subtitle {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  padding: 0;
+  height: 50px;
+  align-items: top;
+  /* padding: 10px; */
+  /* flex: 1; */
+  position: relative
+}
+
+.list-disc {
+/* flex: 1; */
+height: 150px;
+padding-left: 35px;
+padding-right: 20px;
+padding-top: 4px;
+}
+
+.card-actions {
+  height: 75px;
+}
+
+.card-body {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 0;
+  flex-basis: 80px;
+}
+
+
+
+.input {
+  align-self: center;
+  background-color: #f6ebdb;
+  color: black
+}
+
+.worried {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  justify-content: start;
+  font-size: x-large;
+  margin-top: 50px;
+}
+
+.border {
+  border: 30px solid #cc444b;
+  border-style: groove;
+  margin: 8%;
+  padding: 0 60px 40px 60px;
+  justify-content: center;
+}
+
+.card {
+  height: 750px
+}
