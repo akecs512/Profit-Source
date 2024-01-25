@@ -1,8 +1,11 @@
-import Typewriter from "typewriter-effect";
-import { Link } from "react-router-dom";
+import Carousel from "../components/Carousel"
 
 function Header() {
   return (
+    <>
+    <div>
+      <Carousel />
+    </div>
     <div
       className="hero bg-cover"
       style={{ backgroundImage: "url(/imagesNew/nebula.jpg" }}
@@ -18,7 +21,8 @@ function Header() {
 
       </div>
     </div>
-  ); x
+    </>
+  ); 
 }
 
 export default Header;

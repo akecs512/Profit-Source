@@ -101,6 +101,8 @@ h3 {
   border-top: solid 3px #d1d1d1;
   border-left: solid 3px #d1d1d1;
   border-bottom: solid 3px #d1d1d1;
+  /* background-color: green; */
+  /* width: 150px; */
 }
 
 #btn-2 {
@@ -109,6 +111,8 @@ h3 {
   border-left: none;
   border-bottom: solid 3px #d1d1d1;
   border-right: none;
+    /* background-color: green; */
+      /* width: 150px; */
 }
 
 #btn-3 {
@@ -117,14 +121,27 @@ h3 {
   border-left: none;
   border-bottom: solid 3px #d1d1d1;
   border-right: none;
+    /* background-color: green; */
+      /* width: 150px; */
+}
+#btn-4 {
+  border-radius: none;
+  border-top: solid 3px #d1d1d1;
+  border-left: none;
+  border-bottom: solid 3px #d1d1d1;
+  border-right: none;
+  /* background-color: green; */
+  /* width: 150px; */
 }
 
-#btn-4 {
+#btn-5 {
   border-radius: 0 0 20px 0;
   border-top: solid 3px #d1d1d1;
   border-left: none;
   border-bottom: solid 3px #d1d1d1;
   border-right: solid 3px #d1d1d1;
+    /* background-color: green; */
+      /* width: 150px; */
 }
 
 
@@ -179,4 +196,18 @@ h3 {
 
 .card {
   height: 500px
+}
+
+.carousel-item{
+  height: 500px;
+  width: fill;
+  border-radius: 0 60px 0 60px;
+}
+
+.carousel {
+  border-radius: 0 60px 0 60px;
+}
+
+.carousel-btns {
+  margin-top: -20px;
 }
