@@ -6,10 +6,45 @@
   color: white;
   background-color: #d1d1d1;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 20px;
+  padding: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #007ba7;
+  /* font-family: "Rowdies"; */
+}
+
+h3 {
+  font-family: "Poppins";
+  font-size: x-large;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* HOME PAGE CONTENT */
+
 .hero {
- height: 500px;
- /* margin: 20px 0; */
- border-radius: 0 60px 0 60px;
+  height: 500px;
+  /* margin: 20px 0; */
+  border-radius: 0 60px 0 60px;
 }
 
 .hero-content {
@@ -23,99 +58,8 @@
   margin-left: 150px;
 }
 
-
-.card-image{
-  height: 200px;
-  width: 380px;
-  object-fit: fill;
-  margin: 10px 0;;
-}
-
-.about-image {
-  padding: 20px;
-  align-items: center;
-  /* height: 200px; */
-}
-
-.about-card {
-  display: flex;
-  padding: 20px;
-}
-
-.divider {
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-}
-
-.divider::before, .divider::after {
-  flex: 1;
-  content: '';
-  padding: 3px;
-  background-color: red;
-  margin: 5px;
-}
-
-
-
-
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-
-}
-h1 {
-  display: flex;
-  justify-content: center;
-  padding: 2px;
-  font-size: 40px;
-  font-weight: bold;
-  background-color: #007ba7;
-  font-family: "Rowdies";
-  
-  
-}
-
-/* .meImage {
-  height: 100;
-  width: 100;
-} */
-
-.icon-list {
-  height: 30px;
-  margin: 10px 20px;
-  display: flex
-}
-
-p {
-  font-family: "Poppins";
-  font-size: 20px;
-  padding: 20px;
-}
-
-h3 {
-  font-family: "Poppins";
-  font-size: x-large;
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
-
-}
-
-.skills-title {
-  font-family: "Poppins";
-  font-size: 20px;
-  padding-bottom: 20px;
-  
-}
-
 .header-title {
   background-color: transparent;
-  
 }
 
 .contact-form {
@@ -129,7 +73,6 @@ h3 {
 
 .footer {
   height: 30px;
-
 }
 
 .footer-icon {
@@ -138,7 +81,6 @@ h3 {
   display: flex;
   /* margin: 10px */
 }
-
 .infoBar {
   margin-top: 20px;
   height: 20px;
@@ -148,42 +90,59 @@ h3 {
   height: 20px;
 }
 
-.card-text {
-  /* height: 300px; */
+.btn {
+  height: 70px;
+  margin-top: -20px;
 }
 
-.card-title {
-  display: flex;
-  justify-content: center;
-  height: 50px;
-  /* flex: 1; */
-  /* align-items: bottom; */
-  /* align-content: bottom; */
-  position: relative
+
+#btn-1 {
+  border-radius: 20px 0 0 0;
+  border-top: solid 3px #d1d1d1;
+  border-left: solid 3px #d1d1d1;
+  border-bottom: solid 3px #d1d1d1;
 }
 
-.card-subtitle {
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  padding: 0;
-  height: 50px;
-  align-items: top;
-  /* padding: 10px; */
-  /* flex: 1; */
-  position: relative
+#btn-2 {
+  border-radius: none;
+  border-top: solid 3px #d1d1d1;
+  border-left: none;
+  border-bottom: solid 3px #d1d1d1;
+  border-right: none;
+}
+
+#btn-3 {
+  border-radius: none;
+  border-top: solid 3px #d1d1d1;
+  border-left: none;
+  border-bottom: solid 3px #d1d1d1;
+  border-right: none;
+}
+
+#btn-4 {
+  border-radius: 0 0 20px 0;
+  border-top: solid 3px #d1d1d1;
+  border-left: none;
+  border-bottom: solid 3px #d1d1d1;
+  border-right: solid 3px #d1d1d1;
+}
+
+
+/* ABOUT PAGE CONTENT */
+
+.about-image {
+  height: 200px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 40px;
 }
 
 .list-disc {
-/* flex: 1; */
-height: 150px;
-padding-left: 35px;
-padding-right: 20px;
-padding-top: 4px;
-}
-
-.card-actions {
-  height: 75px;
+  /* flex: 1; */
+  height: 150px;
+  padding-left: 35px;
+  padding-right: 20px;
+  padding-top: 4px;
 }
 
 .card-body {
@@ -191,10 +150,12 @@ padding-top: 4px;
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
-  padding: 0;
-  flex-basis: 80px;
+  padding-right: 200px;
 }
 
+.cert-image {
+  size: 20px;
+}
 
 
 .input {
@@ -215,47 +176,7 @@ padding-top: 4px;
   margin-top: 50px;
 }
 
-.border {
-  border: 30px solid #cc444b;
-  border-style: groove;
-  margin: 8%;
-  padding: 0 60px 40px 60px;
-  justify-content: center;
-}
 
 .card {
-  height: 750px
-}
-
-.service-btn {
-  margin-top: -12px;
-}
-
-#btn-1 {
-  border-radius: 20px 0 0 0;
-  border-top: solid 3px #d1d1d1;
-  border-left: solid 3px #d1d1d1;
-  border-bottom: solid 3px #d1d1d1;
-}
-
-#btn-2 {
-  border-radius: none;
-  border-top: solid 3px #d1d1d1;
-  border-left: none;
-  border-bottom: solid 3px #d1d1d1;
-  border-right: none;
-}
-#btn-3 {
-  border-radius: none;
-  border-top: solid 3px #d1d1d1;
-  border-left: none;
-  border-bottom: solid 3px #d1d1d1;
-  border-right: none;
-}
-#btn-4 {
-  border-radius: 0 0 20px 0;
-  border-top: solid 3px #d1d1d1;
-  border-left: none;
-  border-bottom: solid 3px #d1d1d1;
-  border-right: solid 3px #d1d1d1;
+  height: 500px
 }
