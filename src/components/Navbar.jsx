@@ -45,7 +45,7 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-shrink-0 pl-4 items-center">
+              <div className="flex flex-shrink-0 items-center">
                 <img
                   className="h-16"
                   src="/imagesNew/profit.jpeg"

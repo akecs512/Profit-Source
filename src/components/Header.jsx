@@ -8,7 +8,7 @@ function Header() {
     </div>
     <div
       className="hero bg-cover"
-      style={{ backgroundImage: "url(/imagesNew/nebula.jpg" }}
+      style={{ backgroundImage: "url(/imagesNew/cityline.jpeg" }}
     >
       {/* <div className="hero-overlay bg-opacity-10"></div> */}
       {/* <div className="hero-content flex text-center text-neutral-content"> */}

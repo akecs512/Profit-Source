@@ -211,3 +211,9 @@ h3 {
 .carousel-btns {
   margin-top: -20px;
 }
+ .title {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  color: blue;
+ }

@@ -4,9 +4,10 @@ function Carousel ()
 {
     return (
         <>
-            <div className="carousel w-full h-200 rounded-tl-lg">
+            <div className="carousel rounded-tl-lg">
                 <div id="item1" className="carousel-item">
-                    <img src="/imagesNew/nebula.jpg" className="w-full" />
+                    <img src="/imagesNew/cityline.jpeg" className="w-full"/>
+                    {/* <p className="title">Going Beyond the Numbers</p> */}
                 </div>
                 <div id="item2" className="carousel-item">
                     <img src="/imagesNew/bookkeeping.png" className="w-full" />
@@ -21,7 +22,7 @@ function Carousel ()
                     <img src="/imagesNew/analysis.png" className="w-full" />
                 </div>
             </div>
-            <div className="carousel-btns flex justify-center py-2">
+            <div className="carousel-btns container mx-auto flex justify-center py-2">
                 <a href="#item1" id="btn-1" className="item btn btn-wide bg-green-500">Home</a>
                 <a href="#item2" id="btn-2" className="item btn btn-wide bg-green-600 rounded-none">Bookkeeping Services</a>
                 <a href="#item3" id="btn-3" className="btn btn-wide bg-green-700 rounded-none">Payroll Services</a>

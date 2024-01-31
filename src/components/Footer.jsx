@@ -19,7 +19,7 @@ function Footer() {
                   alt="Facebook"
                 />
               </a>
-              <a href="2theledgerlady@gmail.com">
+              <a href="mailto:2theledgerlady@gmail.com">
                 <img
                   className="footer-icon"
                   src="/images/contact/emailIcon.png"
